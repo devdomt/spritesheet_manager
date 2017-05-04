@@ -11,3 +11,6 @@ gc = gspread.authorize(credentials)
 
 new_spritesheet = gc.create("nowy")
 new_spritesheet.share('devdomtest@gmail.com', perm_type = 'user', role = 'writer')
+
+def analize_data():
+    pass
